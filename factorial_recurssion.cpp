@@ -32,10 +32,13 @@ int main()
      }
      else
      {
-          num2=num-1;
+          num2=num2-1;
+          //cout<<"num2 zzzz= "<<num2;
          num=num*num2;
+          //cout<<"num1 ="<<num<<endl;
+         //cout<<"num2 ="<<num<<endl;
+        return fact(num,num2);
 
-        fact(num,num2);
-        return num;
+
      }
  }

@@ -26,7 +26,7 @@ int main()
     cin>>month;
     cout<<"Enter day: ";
     cin>>day;
-   // total=day;
+    total=day;
     //cout<<total;
     for(int x=0;x<month-1;x++)
     {
