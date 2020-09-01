@@ -2,7 +2,7 @@
     File:linear_search.cpp
     Author:Gurpal Singh
     Date:22/08/2020
-    Purpose:TO find  total days till date in a year
+    Purpose:TO find  a number in a array
 
 Change History -------------------------------
 
@@ -14,15 +14,15 @@ Date              User               Comments
 #include<iostream>
 using namespace std;
 
-int loc(int[],int ,int)
+int loc(int[],int);
 
 int main()
 {
+     int num;
 
-    const num;
-    int found=0;
     int arr[7]={12,32,67,87,56,34,67};
-    cout<<"Enter a number which you want to find";
+
+    cout<<"Enter a number which you want to find from {12,32,67,87,56,34,67}";
     cin>>num;
     int location=loc(arr,num);
     cout<<"Number is present at location= "<<location;
@@ -31,17 +31,20 @@ int main()
 
 }
 
-int loc(int list[],item)
+int loc(int arr[],int num)
 {
-    for(int i=0;i<arr[7];i++)
+    int found=0;
+    for(int i=0;i<arr[i];i++)
     {
-        if(num=a[i])
+        if(num=arr[i])
         {
             cout<<"NUmber is present at location"<<i+1;
             found=1;
             break;
+            return i+1 ;
         }
 
     }
+
 
 }
